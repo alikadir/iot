@@ -1,3 +1,9 @@
+// https://randomnerdtutorials.com/esp32-web-server-arduino-ide/
+// Arduino IDE
+// Select Board "DOIT ESP32 DEVKIT V1" 
+// Select Port "usbserial"
+// Tools > Serial Monitor > 115200 Baud
+
 
 // Load Wi-Fi library
 #include <WiFi.h>
