@@ -1,3 +1,4 @@
 - Arduino IDE > Settings > Additional boards manager URLs > ```https://arduino.esp8266.com/stable/package_esp8266com_index.json```
 - Library Manager > ```WiFiManager```, ```ArduinoJson```
+- Sketch > Include Library > Add .ZIP Library > ```https://www.robolinkmarket.com/Data/EditorFiles/zip/Arduino-LiquidCrystal-I2C.zip```
 - Select board: ```NodeMCU 1.0 (ESP-12E Module)```
