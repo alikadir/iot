@@ -1,5 +1,6 @@
 - Arduino IDE > Settings > Additional boards manager URLs > ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 - Select board: ```NodeMCU-32S``` 
 - Library Manager > ```HomeSpan```
+- (millisDelay) MenuBar > Sketch > Include Library > Add .ZIP Library > https://github.com/ansonhe97/millisDelay/archive/refs/heads/master.zip
 - HomeSpan setup wifi as manuel on Serial Monitor or ```homeSpan.setWifiCredentials("AKB_2.4GHz","****");```
 - CH340 Driver [install to MacOS via homebrew](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver?tab=readme-ov-file#installation-with-homebrew-cask) and then select port ```/dev/cu.wchusbserial120 Serial Port (USB)``` on Arduino IDE
