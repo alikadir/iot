@@ -15,7 +15,7 @@ void setup() {
 
   Serial.begin(115200);
   
-  homeSpan.setWifiCredentials("AKB_2.4GHz","karakuzu1453");
+  homeSpan.setWifiCredentials("AKB_2.4GHz","******");
   homeSpan.setPairingCode("11122333");
   homeSpan.setQRID("111-22-333");
 
