@@ -10,6 +10,8 @@ RELAY* down;
 RELAY* bookshelf;
 RELAY* desk;
 
+//Output is inverted
+//https://github.com/HomeSpan/HomeSpan/issues/248
 
 void setup() {
 
