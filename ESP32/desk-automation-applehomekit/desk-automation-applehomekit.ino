@@ -17,9 +17,11 @@ void setup() {
 
   Serial.begin(115200);
   
-  homeSpan.setWifiCredentials("AKB_2.4GHz","******");
-  homeSpan.setPairingCode("11122333");
-  homeSpan.setQRID("111-22-333");
+  homeSpan.setWifiCredentials("AKB_2.4GHz","*******");
+  homeSpan.setPairingCode("46637726");
+  homeSpan.setQRID("466-37-726");
+  //homeSpan.setPairingCode("11122333");
+  //homeSpan.setQRID("111-22-333");
 
   //digitalWrite(25, HIGH);
   //digitalWrite(26, HIGH);
@@ -41,20 +43,20 @@ void setup() {
     new Service::AccessoryInformation();    
       new Characteristic::Identify(); 
       new Characteristic::Name("Up");                       
-    up = new RELAY(25,25000); 
+    up = new RELAY(25,0,25000); 
   
    
   new SpanAccessory();
     new Service::AccessoryInformation();    
       new Characteristic::Identify();    
       new Characteristic::Name("Down");                    
-    down = new RELAY(26,25000);  
+    down = new RELAY(26,0,25000);  
 
   new SpanAccessory();
     new Service::AccessoryInformation();    
       new Characteristic::Identify();    
       new Characteristic::Name("Bookshelf Light");                    
-    bookshelf = new RELAY(27);  
+    bookshelf = new RELAY(27,18);  
 
   new SpanAccessory();
     new Service::AccessoryInformation();    
@@ -77,6 +79,5 @@ void loop() {
   digitalWrite(26,LOW);
   delay(3000);
 */
-
 
 }
