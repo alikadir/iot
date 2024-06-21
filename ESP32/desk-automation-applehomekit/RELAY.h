@@ -9,6 +9,7 @@ struct RELAY : Service::Switch {  // deriving from the HomeSpan Switch service
 
   int buttonLastState = LOW;
   int buttonCurrentState;
+  bool firstRun = true;
 
   SpanCharacteristic *power;
   millisDelay switchDelay;
@@ -42,7 +43,7 @@ struct RELAY : Service::Switch {  // deriving from the HomeSpan Switch service
     if (buttonPin != 0) {
       buttonCurrentState = digitalRead(buttonPin);
       delay(100);
-      if (buttonLastState != buttonCurrentState) {
+      if (buttonLastState != buttonCurrentState && !firstRun) {
         Serial.println("The button clicked");
         if (buttonDelay.justFinished()) {
           int val = power->getNewVal();
@@ -60,6 +61,7 @@ struct RELAY : Service::Switch {  // deriving from the HomeSpan Switch service
         }
       }
       buttonLastState = buttonCurrentState;
+      firstRun = false;
     }
   }
 
