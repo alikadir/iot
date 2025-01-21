@@ -1,0 +1,15 @@
+{
+  "name": "serialport-nodejs-usb-uart-iot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "serialport": "^13.0.0"
+  },
+  "type": "module"
+}
