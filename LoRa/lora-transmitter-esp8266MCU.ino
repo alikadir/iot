@@ -1,5 +1,8 @@
 #include <SoftwareSerial.h>
-SoftwareSerial loRaSerial(4, 0);
+SoftwareSerial loRaSerial(4, 0); // LoraModule-TxD Pin => 4 Pin(ESP8268-RxD) | LoraModule-RxD Pin => 0 Pin(ESP8268-TxD)
+
+// M0 and M1 pins connect to GND for Normal Mode
+// Also Wakeup, Sleep and PowerSaving Modes adjust with M0 and M1 
 
 void setup() {
   Serial.begin(9600);
