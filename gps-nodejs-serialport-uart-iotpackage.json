@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-gps-serialport-uart-iot",
+  "name": "gps-nodejs-serialport-uart-iot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
