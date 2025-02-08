@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-gps-serialport-uart-iot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gps": "^0.7.4",
+    "serialport": "^13.0.0"
+  },
+  "type": "module"
+}
