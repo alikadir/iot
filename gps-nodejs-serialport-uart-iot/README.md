@@ -7,4 +7,4 @@ must be cross connected TX->RX  RX->TX
 
 GPS.js is an extensible parser for NMEA sentences, given by any common GPS receiver. 
 
-
+![CoolTerm](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/gps-nodejs-serialport-uart-iot/images/coolterm-console.png)
