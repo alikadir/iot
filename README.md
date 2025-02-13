@@ -10,5 +10,10 @@ https://www.qr-code-generator.com/solutions/wifi-qr-code/
 ## LoRa EByte RF Settings App
 https://github.com/mosvov/ebyte-modules-setting/releases/tag/v1.0.1
 
+## CP2102 Driver Windows
+https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+Extract zip file > Right Click to "silabser.inf" Install
+
+
 ## SerialPort Terminal (CoolTerm) for MacOs 
 http://freeware.the-meiers.org
