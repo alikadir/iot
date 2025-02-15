@@ -17,6 +17,8 @@ https://www.ebyte.com/pdf-down/3341.html
 https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 Extract zip file > Right Click to "silabser.inf" Install
 
-
 ## SerialPort Terminal (CoolTerm) for MacOs 
 http://freeware.the-meiers.org
+
+# Serial Communication Protocols 
+![uart-i2c-spi](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/images/i2c-spi-uart.gif)
