@@ -5,7 +5,7 @@ import { spawn } from 'child_process';
 import { Gpio } from 'onoff';
 
 
-const ledGreen = new Gpio(529, 'out'); // GPIO17-529
+const ledGreen = new Gpio(529, 'out'); // GPIO17-529  https://github.com/fivdi/onoff/issues/197#issuecomment-1948884220
 const ledYellow = new Gpio(539, 'out'); // GPIO27-539
 const ledRed = new Gpio(534, 'out'); // GPIO22-534
 
