@@ -1,0 +1,21 @@
+{
+  "name": "tensorflow-gpio-raspberrypi-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "onoff": "^6.0.3"
+  },
+  "engines": {
+    "node": "22.14.0" // tensorflow 4.22 only compatible to nodejs 22 !!!!
+  }
+}
