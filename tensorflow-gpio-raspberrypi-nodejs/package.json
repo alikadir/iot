@@ -19,3 +19,30 @@
     "node": "22.14.0" // tensorflow 4.22 only compatible to nodejs 22 !!!!
   }
 }
+/*
+
+$ npm rebuild @tensorflow/tfjs-node --build-from-source
+
+when get following error 
+
+------------------------------------------------
+
+node:internal/modules/cjs/loader:1732
+  return process.dlopen(module, path.toNamespacedPath(filename));
+                 ^
+
+Error: /home/alikadir/tensorflow-gpio-raspberrypi-nodejs/node_modules/@tensorflow/tfjs-node/lib/napi-v8/tfjs_binding.node: cannot open shared object file: No such file or directory
+    at Object..node (node:internal/modules/cjs/loader:1732:18)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (/home/alikadir/tensorflow-gpio-raspberrypi-nodejs/node_modules/@tensorflow/tfjs-node/dist/index.js:72:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10) {
+  code: 'ERR_DLOPEN_FAILED'
+}
+
+*/
