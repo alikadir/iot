@@ -7,7 +7,11 @@ https://www.youtube.com/watch?v=dFoV_nLu7AA
 ## Raspberry Pi Nodejs GPIO
 using npm library ```npm install onoff``` and read the issue https://github.com/fivdi/onoff/issues/197#issuecomment-1948884220
 
-#### Manual GPIO management with sh
+#### GPIO management with WiringPi on RaspberryPi and OrangePi
+https://github.com/WiringPi/WiringPi
+
+#### Manual GPIO management with sh with sysfs on only RaspberryPi
+Linux provides a **sysfs** interface for controlling GPIO pins via the /sys/class/gpio directory. 
 ```
 $ cat /sys/kernel/debug/gpio
 
