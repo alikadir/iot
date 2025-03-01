@@ -4,7 +4,7 @@ https://docs.platformio.org/en/latest/integration/ide/vscode.html#quick-start
 ## Steps of soldering on Li-on 
 https://www.youtube.com/watch?v=dFoV_nLu7AA
 
-## Raspberry Pi Nodejs GPIO
+#### Raspberry Pi Nodejs GPIO
 using npm library ```npm install onoff``` and read the issue https://github.com/fivdi/onoff/issues/197#issuecomment-1948884220
 
 #### GPIO management with WiringPi on RaspberryPi and OrangePi
