@@ -23,26 +23,38 @@ void setup() {
 
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
-  goFast();
+  go(40);
   delay(5000);
-  digitalWrite(LED_BUILTIN, LOW);
-  goSlow();
+  go(80);
+  delay(5000);
+  go(160);
   delay(5000);
 
-  digitalWrite(LED_BUILTIN, HIGH);
-  backFast();
-  delay(5000);
   digitalWrite(LED_BUILTIN, LOW);
-  backSlow();
+  back(40);
+  delay(5000);
+  back(80);
+  delay(5000);
+  back(160);
   delay(5000);
 }
 
 void goSlow() {
-  analogWrite(EN1, 20);
+  analogWrite(EN1, 5);
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
 
-  analogWrite(EN2, 20);
+  analogWrite(EN2, 5);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+
+void go(byte speed) {
+  analogWrite(EN1, speed);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+
+  analogWrite(EN2, speed);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
 }
@@ -58,11 +70,21 @@ void goFast() {
 }
 
 void backSlow() {
-  analogWrite(EN1, 20);
+  analogWrite(EN1, 5);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
 
-  analogWrite(EN2, 20);
+  analogWrite(EN2, 5);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+
+void back(byte speed) {
+  analogWrite(EN1, speed);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+
+  analogWrite(EN2, speed);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
 }
