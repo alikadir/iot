@@ -7,8 +7,12 @@
 
 #define EN2 5
 
+LED_BUILTIN
+
 
 void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+
   pinMode(EN1, OUTPUT);
 
   pinMode(IN1, OUTPUT);
@@ -20,13 +24,17 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
   goFast();
   delay(5000);
+  digitalWrite(LED_BUILTIN, LOW);
   goSlow();
   delay(5000);
 
+  digitalWrite(LED_BUILTIN, HIGH);
   backFast();
   delay(5000);
+  digitalWrite(LED_BUILTIN, LOW);
   backSlow();
   delay(5000);
 }
