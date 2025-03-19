@@ -7,8 +7,6 @@
 
 #define EN2 5
 
-LED_BUILTIN
-
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
