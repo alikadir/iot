@@ -20,6 +20,10 @@ Extract zip file > Right Click to "silabser.inf" Install
 ## SerialPort Terminal (CoolTerm) for MacOs 
 http://freeware.the-meiers.org
 
+## CH341A SPI/I2C EEPROM USB Programmer Application
+https://github.com/alikadir/IMSProg
+
+
 # Serial Communication Protocols 
 ![uart-i2c-spi](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/images/i2c-spi-uart.gif)
 
