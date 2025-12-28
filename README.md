@@ -23,7 +23,7 @@ http://freeware.the-meiers.org
 ## CH341A SPI/I2C EEPROM USB Programmer Application
 https://github.com/alikadir/IMSProg
 
-# CH341A Programmer (SPI, I2C)
+# CH341A Programmer (SPI, I2C) 3.3v
 ![CH341A](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/images/CH341A.png)
 
 # Serial Communication Protocols 
