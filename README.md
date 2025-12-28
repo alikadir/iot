@@ -23,10 +23,11 @@ http://freeware.the-meiers.org
 ## CH341A SPI/I2C EEPROM USB Programmer Application
 https://github.com/alikadir/IMSProg
 
+# CH341A Programmer (SPI, I2C)
+![CH341A](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/images/CH341A.png)
 
 # Serial Communication Protocols 
 ![uart-i2c-spi](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/images/i2c-spi-uart.gif)
-
 
 #### Raspberry Pi Nodejs GPIO
 using npm library ```npm install onoff``` and read the issue https://github.com/fivdi/onoff/issues/197#issuecomment-1948884220
