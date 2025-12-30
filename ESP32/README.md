@@ -37,7 +37,6 @@
   ? - print this list of commands
 
 *** End Commands ***
-
-
-
 ```
+
+![pinout](https://raw.githubusercontent.com/alikadir/iot/refs/heads/main/ESP32/pinout-esp32-c3.jpeg)
