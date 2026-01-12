@@ -20,6 +20,10 @@
 
 <item itemtype="Voltimeter" CircId="Voltimeter-27" mainComp="false" Show_id="false" Show_Val="false" Pos="164,60" rotation="0" hflip="1" vflip="1" label="Voltimeter-27" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" />
 
+<item itemtype="Probe" CircId="Probe-32" mainComp="false" Show_id="false" Show_Val="true" Pos="-136,96" rotation="-45" hflip="-1" vflip="1" label="Probe-32" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Probe" CircId="Probe-34" mainComp="false" Show_id="false" Show_Val="true" Pos="-140,52" rotation="-45" hflip="1" vflip="-1" label="Probe-34" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" ShowVolt="true" Threshold="2.5 V" />
+
 <item itemtype="Node" CircId="Node-9" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="12,16" />
 
 <item itemtype="Node" CircId="Node-18" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-184,-8" />
@@ -27,6 +31,10 @@
 <item itemtype="Node" CircId="Node-30" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="12,136" />
 
 <item itemtype="Node" CircId="Node-31" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="60,92" />
+
+<item itemtype="Node" CircId="Node-33" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-100,112" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-156,8" />
 
 <item itemtype="Connector" uid="Connector-1" startpinid="Voltage Source-4-outPin" endpinid="Nano-3-Vin" pointList="-28,-68,4,-68,4,8,-32,8" />
 
@@ -38,8 +46,6 @@
 
 <item itemtype="Connector" uid="Connector-22" startpinid="Oscope-16-Pin0" endpinid="Node-18-1" pointList="-196,-260,-272,-260,-272,-8,-184,-8" />
 
-<item itemtype="Connector" uid="Connector-23" startpinid="Nano-3-1" endpinid="Node-18-0" pointList="-80,8,-184,8,-184,-8" />
-
 <item itemtype="Connector" uid="Connector-37" startpinid="Node-18-2" endpinid="SerialTerm-2-pin1" pointList="-184,-8,-184,-32" />
 
 <item itemtype="Connector" uid="Connector-43" startpinid="Resistor-7-rPin" endpinid="Amperimeter-24-rPin" pointList="12,72,12,84,76,84,76,76" />
@@ -50,12 +56,22 @@
 
 <item itemtype="Connector" uid="Connector-49" startpinid="Led-8-lPin" endpinid="Node-30-0" pointList="12,124,12,136" />
 
-<item itemtype="Connector" uid="Connector-50" startpinid="Node-30-2" endpinid="Nano-3-7" pointList="12,136,12,156,-100,156,-100,80,-80,80" />
-
 <item itemtype="Connector" uid="Connector-51" startpinid="Voltimeter-27-rPin" endpinid="Node-31-1" pointList="172,76,172,92,60,92" />
 
 <item itemtype="Connector" uid="Connector-52" startpinid="Led-8-rPin" endpinid="Node-31-0" pointList="12,92,60,92" />
 
 <item itemtype="Connector" uid="Connector-53" startpinid="Node-31-2" endpinid="Amperimeter-24-lPin" pointList="60,92,60,76" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Probe-32-inpin" endpinid="Node-33-1" pointList="-120,112,-100,112" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Node-30-2" endpinid="Node-33-0" pointList="12,136,12,156,-100,156,-100,112" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Node-33-2" endpinid="Nano-3-7" pointList="-100,112,-100,80,-80,80" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="Probe-34-inpin" endpinid="Node-35-1" pointList="-156,36,-156,8" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="Nano-3-1" endpinid="Node-35-0" pointList="-80,8,-156,8" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="Node-35-2" endpinid="Node-18-0" pointList="-156,8,-184,8,-184,-8" />
 
 </circuit>
