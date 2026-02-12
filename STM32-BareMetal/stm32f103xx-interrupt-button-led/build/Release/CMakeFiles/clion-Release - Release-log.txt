@@ -1,0 +1,5 @@
+/Users/alikadir/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Release --preset Release -S /Users/alikadir/Desktop/PROJECTS/stm32f103xx-interrupt-button-led -B /Users/alikadir/Desktop/PROJECTS/stm32f103xx-interrupt-button-led/build/Release
+Build type: Release
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/alikadir/Desktop/PROJECTS/stm32f103xx-interrupt-button-led/build/Release

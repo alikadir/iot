@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/alikadir/Desktop/PROJECTS/stm32f103xx-interrupt-button-led/build/Debug/cmake_install.cmake",
+		"/Users/alikadir/Desktop/PROJECTS/stm32f103xx-interrupt-button-led/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
