@@ -26,6 +26,8 @@ https://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html
 
 !!! ENABLE DRIVER After Install: SystemSettings > General > Login Items & Extensions > Extensions > By Category > Driver Extensions > Enable CH34x
 
+## CH341 Tool for Windows
+https://tomeko.net/software/CH341A_tool/index.php?lang=en
 
 ## CH341A SPI/I2C EEPROM USB Programmer Application
 https://github.com/alikadir/IMSProg
