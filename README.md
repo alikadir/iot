@@ -20,6 +20,13 @@ Extract zip file > Right Click to "silabser.inf" Install
 ## SerialPort Terminal (CoolTerm) for MacOs 
 http://freeware.the-meiers.org
 
+# CH341A MacOS Driver
+https://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html
+
+
+!!! ENABLE DRIVER After Install: SystemSettings > General > Login Items & Extensions > Extensions > By Category > Driver Extensions > Enable CH34x
+
+
 ## CH341A SPI/I2C EEPROM USB Programmer Application
 https://github.com/alikadir/IMSProg
 
