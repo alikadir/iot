@@ -82,11 +82,16 @@ uint16_t FilterADC(uint16_t adc)
     return sum / FILTER_SIZE;
 }
 
-
+//ADC icin 1k Potansiyometre kullan 1k daha stabil 10k fazla ziplama yapiyor
 void HAL_SYSTICK_Callback(void)
 {
     uint16_t adc = FilterADC(adc_dma[0]);
     uint32_t ccr = (adc * 1000) / 4095;
+   
+    // Alt eşik: bu değerin altını tamamen 0 kabul et
+    if (ccr < 5 )
+        ccr = 0;
+ 
     __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, ccr);
 }
 
